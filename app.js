@@ -38,7 +38,7 @@ var contentMap = {
 /**
  * Config web server.
  */
-var server = http.createServer(function( request, response ){
+var server = http.createServer( (request,response) => {
 
     // Verify with method was requested by client.
     switch( request.method ){
@@ -68,7 +68,7 @@ var server = http.createServer(function( request, response ){
                 };
 
                 // Send email.
-                transporter.sendMail(mailOptions, function(error, info){
+                transporter.sendMail(mailOptions, (error, info) => {
                     if( error ){ 
                         console.log("EMAIL ERROR:");
                         console.log(error);
@@ -103,7 +103,7 @@ var server = http.createServer(function( request, response ){
                 console.log("FILE '"+file+"' requested.");
 
                 // Verify if file exists, if yes, print on client.
-                fs.readFile(file,function( pageError, pageResponse ){
+                fs.readFile(file, ( pageError, pageResponse ) => {
 
                     if( pageError ){
                         response.writeHead(404, { 'Content-Type': 'text/plain' });
