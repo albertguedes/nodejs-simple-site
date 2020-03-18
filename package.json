@@ -1,0 +1,12 @@
+{
+    "name": "simple-site",
+    "description": "A simple website made in nodejs",
+    "version": "0.0.1",
+    "dependencies": {
+        "http":"*",
+        "url":"*",
+        "fs":"*",
+        "querystring":"*",
+        "nodemailer": "*"
+    }
+}

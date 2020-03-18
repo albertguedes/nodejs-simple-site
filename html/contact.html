@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+    <head>
+        <meta charset="utf-8" >
+        <title>Contact - Simple NodeJS Web Page</title>    
+    </head>
+    <body>
+        <p> <a href="/" >Home</a> <strong>Contact</strong> <a href="/about" >About</a></p>
+        <br>        
+        <h1>Contact</h1>
+        <form action="/contact" method="post" >
+            <p>Name: <input name="name" type="text" ></p>
+            <p>Email: <input name="email" type="email" ></p>
+            <p>Subject: <input name="subject" type="text" ></p>            
+            <p>Message</p>
+            <textarea name="message" ></textarea>
+            <p><input type="submit" value="Send Message" ></p>
+        </form>
+    </body>
+</html>
