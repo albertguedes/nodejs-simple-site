@@ -18,19 +18,27 @@ If you dont has installed the nodejs on your system, visit the page https://node
 
 Clone this project via git
 
-`$ git clone git@github.com:albertguedes/nodejs-simple-site.git`
+```
+$ git clone git@github.com:albertguedes/nodejs-simple-site.git
+```
 
 or download the zip package with wget
 
-`$ wget https://github.com/albertguedes/nodejs-simple-site/archive/master.zip`
+```
+$ wget https://github.com/albertguedes/nodejs-simple-site/archive/master.zip
+```
 
 Go to the folder with project, change the configs ( auto-explained on 'app.js' file ) and install the dependencies with the command
 
-`$ node install`
+```
+$ node install
+```
 
 and run the server
 
-`$ node app.js`
+```
+$ node app.js
+```
 
 And open in your browser the url 'http://localhost:5050/'.
 
