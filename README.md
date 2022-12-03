@@ -44,3 +44,6 @@ And open in your browser the url 'http://localhost:5050/'.
 
 Now you can use the project as backbone to your own project and learning.
 
+## REFERENCES
+
+- NodeJS Docs: [https://nodejs.org/en/docs/](https://nodejs.org/en/docs/)
