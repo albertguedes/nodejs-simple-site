@@ -2,7 +2,7 @@
  * app.js - script to deploy a simple webpage with static content and a contact
  *          form.
  * created: 2020-03-18
- * author: albert r. carnier guedes (arcguede@gmail.com)
+ * author: albert r. carnier guedes (albert@teko.net.br)
  * licence: GNU General Public License v3.0 ( see file LICENSE )
  */
 
