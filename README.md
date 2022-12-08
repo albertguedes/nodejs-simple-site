@@ -1,16 +1,12 @@
+![GitHub](https://img.shields.io/github/license/albertguedes/nodejs-simple-site) ![GitHub language count](https://img.shields.io/github/languages/count/albertguedes/nodejs-simple-site) ![GitHub last commit](https://img.shields.io/github/last-commit/albertguedes/nodejs-simple-site)
+
 # NODEJS SIMPLE SITE
 
-## INTRODUCTION 
-
-This project aims to help new users in the development of apps made with nodejs.
-Using the minimal modules to work, i created an basic website that run on builtin webserver of nodejs.
-The site is composed by
+This is a static website composed by
 
 - a 'home' page
 - a 'about' page
 - a 'contact' page
-
-The contact page has a form to send messages.
 
 ## INSTALL
 
