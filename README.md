@@ -10,7 +10,7 @@ This is a static website composed by
 
 ## INSTALL
 
-If you dont has installed the nodejs on your system, visit the page https://nodejs.org/en/download/.
+If you dont has installed the nodejs on your system, visit the page "https://nodejs.org/en/download/".
 
 Clone this project via git
 
@@ -27,13 +27,13 @@ $ wget https://github.com/albertguedes/nodejs-simple-site/archive/master.zip
 Go to the folder with project, change the configs ( auto-explained on 'app.js' file ) and install the dependencies with the command
 
 ```
-$ node install
+$ yarn install
 ```
 
 and run the server
 
 ```
-$ node app.js
+$ yarn app.js
 ```
 
 And open in your browser the url 'http://localhost:5050/'.
